@@ -1,7 +1,7 @@
 package org.udg.pds.springtodo.entity;
 
 @Entity(name="usergroup")
-public class Group {
+public class Group implements Serializable {
   
   public Group() {
   }
